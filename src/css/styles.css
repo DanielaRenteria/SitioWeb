@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav {
+    @apply font-ubuntu;
+    @apply content-center;
+    @apply text-lg;
+    @apply text-white;
+    @apply p-2;
+    @apply m-2;
+    @apply font-black;
+    @apply inline-block;
+    @apply align-middle;
+    @apply float-right;
+}
+
+.nav_icons {
+    @apply nav;
+    @apply pt-3;
+    @apply px-0
+}
+
+.nav_tech {
+    @apply px-24;
+    @apply py-4;
+    @apply relative;
+}
+
+.button_gral {
+    @apply bg-button;
+    @apply font-ubuntu;
+    @apply content-center;
+    @apply absolute;
+    @apply rounded-full;
+    @apply font-bold;
+    @apply text-white;
+}
+
+.button1 {
+    @apply button_gral;
+    @apply py-3;
+    @apply px-6;
+    @apply left-24;
+    @apply top-96;
+}
